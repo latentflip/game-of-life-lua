@@ -100,7 +100,6 @@ GOL.Grid.evolve = function(grid)
 end
 
 GOL.Grid.random_grid = function(x, y)
-  print('starting')
   grid = {}
   for y_i = 1,y,1 do
     table.insert(grid, {})
@@ -108,7 +107,6 @@ GOL.Grid.random_grid = function(x, y)
       table.insert(grid[#grid], GOL.random_cell())
     end
   end
-  print(grid)
   return grid
 end
 
