@@ -11,7 +11,7 @@ lua gol_play.lua
 
 ## To develop it further
 
-I've used busted for specs:
+I've used [busted](http://olivinelabs.com/busted/) for specs:
 
 ```
 brew install luarocks
@@ -20,6 +20,7 @@ busted gol_spec.lua
 ```
 
 [@philip_roberts](http://twitter.com/philip_roberts)
+
 phil@latentflip.com
 
 ---
